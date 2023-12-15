@@ -1,0 +1,1081 @@
+git add src/custom/components/molecules/Header/TopHeader.js src/routes/index.js src/views/Message/ActiveSellers.js src/views/Message/ActiveSubjects.js src/views/Message/ActiveSubjects.js src/views/Message/Conversations.js src/views/Message/index.js src/App.js src/views/ProductView/index.js
+git commit "Added chatt functionalities for admin and user"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| third_party_quickbooks_log     |
+| third_payment_paypal_log       |
+| third_shipping_shipstation     |
+| third_shipping_shipstation_log |
+| user_address_details           |
+| user_bid_prefer                |
+| user_credits                   |
+| user_emails                    |
+| user_logins                    |
+| user_notification              |
+| user_sms                       |
+| users                          |
+| vat_registration               |
+| watchlists                     |
++--------------------------------+
+85 rows in set (0.00 sec)
+
+mysql> clear
+mysql> exit
+Bye
+newuser002@newuser002-virtual-machine:~/Desktop$ cd primismedical/
+newuser002@newuser002-virtual-machine:~/Desktop/primismedical$ cd api/
+newuser002@newuser002-virtual-machine:~/Desktop/primismedical/api$ code .
+newuser002@newuser002-virtual-machine:~/Desktop/primismedical/api$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 177
+Server version: 8.0.25 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SET GLOBAL sql_mode = '';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> exit
+Bye
+newuser002@newuser002-virtual-machine:~/Desktop/primismedical/api$ cd ../front/
+newuser002@newuser002-virtual-machine:~/Desktop/primismedical/front$ code .
+newuser002@newuser002-virtual-machine:~/Desktop/primismedical/front$ cd ~
+newuser002@newuser002-virtual-machine:~$ history
+  207  git submodule init
+  208  git submodule update --remote
+  209  clear
+  210  git submodule init
+  211  git submodule update --remote
+  212  cls
+  213  clear
+  214  git submodule update --remote
+  215  npm i
+  216  clear
+  217  npm start
+  218  clear
+  219  git submodule init
+  220  git submodule update --remote
+  221  clear
+  222  git submodule init
+  223  git submodule update --remote
+  224  npm i
+  225  clear
+  226  npm start
+  227  clear
+  228  cd Desktop/
+  229  ls
+  230  cd projects/
+  231  ls
+  232  cd front/
+  233  code .
+  234  cd ..
+  235  cd api
+  236  code .
+  237  mysql -v
+  238  cls
+  239  clear
+  240  sudo mysql -v
+  241  cls
+  242  cd ~
+  243  cd Downloads/`
+  244  cd Downloads/
+  245  cls
+  246  clear
+  247  sudo dpkg -i google-chrome-stable_current_amd64. deb
+  248  wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  249  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/base/api.git
+  250  cd api/
+  251  git submodule init
+  252  git submodule update
+  253  git submodule update --remote
+  254  cd api/product/
+  255  git checkout main
+  256  ls -al
+  257  cd ../..
+  258  node -v
+  259  nvm use 14
+  260  npm install
+  261  clear
+  262  code .
+  263  node -v
+  264  node app.js 
+  265  clear
+  266  node app.js 
+  267  clear
+  268  node app.js 
+  269  mysql -u root -p
+  270  node app.js 
+  271  nod e-v
+  272  node -v
+  273  node app.js 
+  274  mysql --version
+  275  cd ../admin/
+  276  npm start
+  277  clear
+  278  ls -al
+  279  rm -rf node_modules
+  280  rm package-lock.json 
+  281  node -v
+  282  nvm use 16
+  283  nod e-v
+  284  node -v
+  285  npm install
+  286  node -v
+  287  npm start
+  288  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/base/front.git
+  289  cd front/
+  290  git submodule init
+  291  git submodule update
+  292  git submodule update --remote
+  293  cd src/product/
+  294  git checkout main
+  295  cd ../..
+  296  node -v
+  297  nvm use 14
+  298  npm install
+  299  clear
+  300  code .
+  301  npm start
+  302  clear
+  303  npm start
+  304  npx prettier --write .
+  305  npm start
+  306  node -v
+  307  npm start
+  308  npm start
+  309  clear
+  310  node -v
+  311  nvm use 16
+  312  clear
+  313  npm start
+  314  npm i -g nodemon
+  315  clear
+  316  npm start
+  317  clear
+  318  node -v
+  319  nvm use 14
+  320  node -v
+  321  node app.js 
+  322  clear
+  323  sftp serverteam@logs.moblearn.net
+  324  mysql -u root -p
+  325  mysql -u root -p base_new < largebase_testdb_bak02_16nov2023.sql 
+  326  mkdir boxbids
+  327  cd boxbids/
+  328  git clone https://gitlab.com/auctionsoftware-large/project/minnbid/admin.git
+  329  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/minnbid/admin.git
+  330  cd admin/
+  331  git submodule init
+  332  git submodule update
+  333  git submodule update --remote
+  334  cd src/product/
+  335  git checkout main
+  336  cd ../..
+  337  node -v
+  338  nvm use 16
+  339  nod e-v
+  340  node -v
+  341  npm install
+  342  npm start
+  343  mysql
+  344  sudo mysql
+  345  clear
+  346  node -v
+  347  npm i
+  348  clear
+  349  nvm use 16
+  350  clear
+  351  npm i
+  352  clear
+  353  npm start
+  354  clear
+  355  npm start
+  356  clear
+  357  npm start
+  358  clear
+  359  nvm use 16
+  360  clear
+  361  npm start
+  362  node -v
+  363  clear
+  364  node -v
+  365  clear
+  366  npm start
+  367  node -v
+  368  nvm use 14
+  369  rm -rf node_modules
+  370  npm install
+  371  node app.js 
+  372  code .
+  373  cd ../front/
+  374  nvm use 14
+  375  rm -rf node_modules
+  376  npm install
+  377  cd ../api
+  378  node app
+  379  exit
+  380  node -v
+  381  npm i react-image-crop
+  382  node -v
+  383  npm i i18next
+  384  node -v
+  385  cls
+  386  clear
+  387  npm start
+  388  nvm use 14
+  389  npm start
+  390  nvm use 14
+  391  clear
+  392  npm start
+  393  npm i -g nodemon
+  394  clear
+  395  npm start
+  396  npm i Redis
+  397  clear
+  398  npm i
+  399  node -v
+  400  clear
+  401  npm i
+  402  npm start
+  403  node -v
+  404  sftp serverteam@logs.moblearn.net
+  405  git status
+  406  clear
+  407  git add src/views/Seller/Dashboard/Listing/dynamic.js src/utils/UI/utils.css
+  408  git status
+  409  git branch
+  410  git commit -m "added profiling confirmation before reating listing"
+  411  git config --global user.email "ramparvesh@auctionsoftware.com"
+  412  git config --global user.name "Ram pravesh"
+  413  clear
+  414  git commit -m "added profiling confirmation before reating listing"
+  415  git status
+  416  git push
+  417  git push origin main
+  418  git pull
+  419  gitk
+  420  git log
+  421  git branch
+  422  git remote -v
+  423  git log
+  424  git stash
+  425  git pull
+  426  git log
+  427  git pull
+  428  clear
+  429  npm start
+  430  clear
+  431  node -v
+  432  npm start
+  433  clear
+  434  node app
+  435  clear
+  436  npm start
+  437  npm i
+  438  clear
+  439  npm start
+  440  clear
+  441  npm start
+  442  clear
+  443  npm start
+  444  clear
+  445  npm start
+  446  npx prettier --write .
+  447  npm start
+  448  git log
+  449  git push
+  450  git log
+  451  git log
+  452  git pull
+  453  git log
+  454  git pull
+  455  git branch
+  456  git log --oneline
+  457  npm i
+  458  clear
+  459  npm start
+  460  npx prettier --write .
+  461  npm start
+  462  node -v
+  463  git submodule init
+  464  git submodule update
+  465  git submodule update --remote
+  466  cd src/product/
+  467  git checkout main
+  468  ls -al
+  469  cd ../..
+  470  npm start
+  471  rm -rf node_modules
+  472  nvm list
+  473  nvm use 16
+  474  npm install
+  475  npx prettier --write .
+  476  npm start
+  477  node -v
+  478  npm i i18next
+  479  npm start
+  480  clear
+  481  npm start
+  482  clear
+  483  npm start
+  484  clear
+  485  npm start
+  486  CLEAR
+  487  clear
+  488  npm start
+  489  clear
+  490  git pull
+  491  git log
+  492  cd src/product
+  493  git pull
+  494  git ranch
+  495  git branch
+  496  git checkout maimn
+  497  git checkout main
+  498  clear
+  499  git log
+  500  git pull
+  501  cd ..
+  502  clear
+  503  cd ..
+  504  cd ekkanoo/
+  505  s
+  506  ls
+  507  cd front
+  508  code .
+  509  cd ..
+  510  cd admin/
+  511  code .
+  512  cd ..
+  513  cd api/
+  514  code .
+  515  clear
+  516  history
+  517  BBBBBBBBBBBBclear
+  518  clear
+  519  cd ..
+  520  cd ../ln
+  521  cd ../LN
+  522  cd admin
+  523  code .
+  524  xrandr --verbose
+  525  clear
+  526  xrandr --output HDMI-0 --brightness 0.8
+  527  cd /sys/class/backlight
+  528  cd BACKLIGHT_DIRECTORY
+  529  ls\
+  530  ls
+  531  ls -a
+  532  ls
+  533  clear
+  534  xrandr --verbose
+  535  clear
+  536  free -h
+  537  top
+  538  clear
+  539  free -h
+  540  clear
+  541  cd ~
+  542  clear
+  543  cd Desktop/
+  544  cd ekkanoo/
+  545  git pull
+  546  ls
+  547  cd front/
+  548  git pull
+  549  cd src/product/
+  550  git submodule pull
+  551  git submodule pull --remote
+  552  git pull
+  553  git branch
+  554  git checkout main
+  555  git pull
+  556  clear
+  557  cd ~
+  558  cls
+  559  mysql 
+  560  sudo mysql
+  561  npm start
+  562  clear
+  563  npx prettier --write .
+  564  clear
+  565  npm start
+  566  clear
+  567  npm start
+  568  clear
+  569  npm start
+  570  npm start
+  571  clear
+  572  npm start
+  573  npm start
+  574  clear
+  575  npm start
+  576  clear
+  577  npm start
+  578  clear
+  579  npm start
+  580  clear
+  581  npm start
+  582  clear
+  583  npm start
+  584  clear
+  585  npm start
+  586  git init
+  587  git submodule init
+  588  git submodule update --remote
+  589  clear
+  590  git submodule update --remote
+  591  git submodule update
+  592  clear
+  593  git submodule update --remote
+  594  clear
+  595  git submodule update --remote
+  596  git remote -v
+  597  git submodule update --remote
+  598  clear
+  599  git submodule init
+  600  git submodule update --remote
+  601  clear
+  602  git submodule init
+  603  git submodule update --remote
+  604  clear
+  605  git submodule update --remote
+  606  clear
+  607  history
+  608  [Yesterday 4:24 pm] Hariharaprasath
+  609  https://gitlab.com/auctionsoftware-large/project/iquippo/admin.git
+  610  https://gitlab.com/auctionsoftware-large/project/iquippo/api.git
+  611  https://gitlab.com/auctionsoftware-large/project/iquippo/front.git
+  612  Sign in · GitLab
+  613  GitLab.comclear
+  614  clear
+  615  cd Desktop/ekkanoo/
+  616  cd ..
+  617  cd iquippo/
+  618  lear
+  619  clear
+  620  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/iquippo/admin.git && git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/iquippo/api.git && git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/iquippo/front.git
+  621  ls
+  622  cd admin/
+  623  git init
+  624  cd cd src/product/
+  625  git submodule init
+  626  git submodule update --remote
+  627  clear
+  628  git submodule update --remote
+  629  cd ../..
+  630  code .
+  631  ls
+  632  cd src/
+  633  ls
+  634  clear
+  635  cd ../..
+  636  clear
+  637  ls
+  638  sudo rm -r *
+  639  ls
+  640  clear
+  641  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/iquippo/api.git && git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/iquippo/front.git && git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/iquippo/admin.git
+  642  ls
+  643  cd admin/
+  644  git init
+  645  cd src/
+  646  ls
+  647  cd product/
+  648  ls
+  649  clear
+  650  cd ../..
+  651  clear
+  652  git submodule init
+  653  git submodule update --remote
+  654  cd ../front/
+  655  git init
+  656  git submodule init
+  657  git submodule update --remote
+  658  cd ../api/
+  659  git init
+  660  git submodule init
+  661  git submodule update --remote
+  662  code .
+  663  cd ../../ekkanoo/
+  664  cd admin/
+  665  cd ../api/
+  666  code .
+  667  cd ../..
+  668  clear
+  669  mysql
+  670  sudo mysql
+  671  create database iquippo
+  672  sudo mysql
+  673  mysql -u root -p iquippo < largebase_testdb_bak02_16nov2023.sql
+  674  cd ../Documents/
+  675  ls
+  676  mysql -u root -p iquippo < largebase_testdb_bak02_16nov2023.sql
+  677  ls
+  678  mysql -u root -p iquippo < base_testdb_14nov2023.sql
+  679  sudo mysql
+  680  clear
+  681  cd ~/Desktop/iquippo/front/
+  682  git init
+  683  git sumodule init
+  684  git submodule init
+  685  git submodule update --remote
+  686  code .
+  687  cd ../admin/
+  688  git init
+  689  git submodule init
+  690  git submodule update --remote
+  691  cd ~/Desktop/ekkanoo/front/
+  692  ls
+  693  cd src/
+  694  ls
+  695  cd ..
+  696  code .
+  697  cd ../../iquippo/
+  698  cd admin/
+  699  code .
+  700  cd ~/Documents/
+  701  ls
+  702  touch iquippo_testdb_07dec2023.sql
+  703  nano iquippo_testdb_07dec2023.sql 
+  704  cd Documents/
+  705  ls
+  706  vim iquippo_testdb_07dec2023.sql
+  707  vi iquippo_testdb_07dec2023.sql
+  708  npm start
+  709  clear
+  710  npm i
+  711  clear
+  712  npm start
+  713  npm i
+  714  node -v
+  715  nvm alias default 14.17.6
+  716  nvm alias default 14
+  717  nvm ls
+  718  cd Desktop/ekkanoo/
+  719  cd admin/
+  720  code .
+  721  cd ~/Documents/
+  722  clear
+  723  sudo mysql
+  724  clear\
+  725  clear
+  726  sudo mysql
+  727  clear
+  728  ls
+  729  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql
+  730  sudo mysql
+  731  clear
+  732  mysql -u root -p iquippo <iquippo_testdb_07dec2023.sql
+  733  sudo mysql
+  734  ls
+  735  sudo rm -r iquippo_testdb_07dec2023.sql
+  736  ls
+  737  sudo mysql
+  738  ls
+  739  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save 
+  740  clear
+  741  sudo mysql
+  742  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save
+  743  sudo mysql
+  744  clear
+  745  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save
+  746  sudo mysql
+  747  clear
+  748  cd ~/Desktop/ekkanoo/api/
+  749  code .
+  750  mysql
+  751  sudo mysql
+  752  clear
+  753  mysql -v
+  754  sudo mysql -v
+  755  sudo mysql -version
+  756  sudo mysql --version
+  757  clear
+  758  cd ~/Documents/
+  759  ls
+  760  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save
+  761  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save;
+  762  sudo mysql
+  763  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save;
+  764  sudo mysql;
+  765  mysql -u root -p iquippo < iquippo_testdb_07dec2023.sql.save;
+  766  sudo mysql;
+  767  clear
+  768  mysqldump -u username -p database_name > output_file.sql
+  769  mysqldump -u root -p ekanoo > output_file.sql
+  770  ls
+  771  sudo mysql;
+  772  mysql -u root -p iquippo < output_file.sql 
+  773  sudo mysql;
+  774  clear
+  775  ls
+  776  vvv
+  777  v
+  778  a
+  779  b
+  780  c
+  781  d
+  782  e
+  783  f
+  784  g
+  785  h
+  786  i
+  787  clear
+  788  sudo mysql
+  789  cls
+  790  cd ~/Documents/
+  791  ls
+  792  cd ~/Downloads/
+  793  ls
+  794  chmod +x xampp-linux-x64-8.0.28-0-installer.run 
+  795  sudo ./xampp-linux-x64-8.0.28-0-installer.run
+  796  clear
+  797  cd ~/Documents/
+  798  ls
+  799  git clone https://gitlab.com/auctionio1/file_share_nov.git
+  800  clear
+  801  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionio1/file_share_nov.git
+  802  ls
+  803  cd file_share_nov/
+  804  ls
+  805  sudo mysql
+  806  mysql -u root -p iquippo < iquipo_2_12_23.sql
+  807  cd ~
+  808  clear
+  809  sudo mysql
+  810  clear
+  811  git pull
+  812  cd src/product
+  813  git pull
+  814  cd ../..
+  815  cd ../front/
+  816  cd src/product/
+  817  git pull
+  818  cd ../..
+  819  git pull
+  820  cd src/product/
+  821  git pull
+  822  cd ..
+  823  npm start
+  824  clear
+  825  cd ../../ekkanoo/
+  826  cd api/
+  827  clear
+  828  git pull
+  829  ls
+  830  cd api/product/
+  831  git pull
+  832  git status
+  833  git pull
+  834  cd ../../../front/src/product/
+  835  git pull
+  836  cd ../..
+  837  git pull
+  838  cd ../admin/
+  839  git pull
+  840  cd src/product/
+  841  git pull
+  842  git branch
+  843  git checkout main
+  844  git branch
+  845  git pull
+  846  cd ~
+  847  clear
+  848  cd Desktop/
+  849  ls
+  850  mkdir iquippo
+  851  cd iquippo/
+  852  git clone https://gitlab.com/auctionsoftware-large/project/iquippo/admin.git
+  853  history
+  854  [Yesterday 4:24 pm] Hariharaprasath
+  855  https://gitlab.com/auctionsoftware-large/project/iquippo/admin.git
+  856  https://gitlab.com/auctionsoftware-large/project/iquippo/api.git
+  857  https://gitlab.com/auctionsoftware-large/project/iquippo/front.git
+  858  Sign in · GitLab
+  859  clear
+  860  cd Desktop/
+  861  ls
+  862  cd ekkanoo/
+  863  ls
+  864  cd api
+  865  node -v
+  866  nvm ls
+  867  nvm use 14
+  868  node app
+  869  cd ..
+  870  cd front/
+  871  code .
+  872  cd ../api/
+  873  code .
+  874  cd ../admin/
+  875  code .
+  876  clear
+  877  cd ..
+  878  clear
+  879  mkdir LN
+  880  cd LN
+  881  clear
+  882  git clone https://gitlab.com/auctionsoftware-large/project/subastaspro/admin.git
+  883  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/subastaspro/admin.git
+  884  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/subastaspro/api.git
+  885  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/subastaspro/front.git
+  886  ls
+  887  clear
+  888  cd api
+  889  code .
+  890  clear
+  891  git submodule init
+  892  git submodule update --remote
+  893  code .
+  894  cd ..
+  895  cd front/
+  896  git submodule init
+  897  git submodule update --remote
+  898  cd ../admin/
+  899  git submodule init
+  900  git submodule update --remote
+  901  code .
+  902  cd ..
+  903  cd front/
+  904  code .
+  905  cd ../api
+  906  sftp serverteam@logs.moblearn.net
+  907  mysql -u root -p
+  908  mysql -u root -p subastas < subastas_bak_testdb_29nov2023.sql 
+  909  mysql -u root -p
+  910  mysql -u root -p subastas < subastas_bak_testdb_29nov2023.sql 
+  911  sudo mysql
+  912  node -v
+  913  nvm use 14
+  914  npm i react-image-crop
+  915  npm i
+  916  npm start
+  917  clear
+  918  npm start
+  919  clear
+  920  nvm use 14
+  921  clear
+  922  npm start
+  923  node -v
+  924  npm i
+  925  clear
+  926  pm start
+  927  npm start
+  928  node -v
+  929  nvm use 14
+  930  npm start
+  931  clear
+  932  sudo lsof -:8080
+  933  sudo lsof -:8090
+  934  sudo lsof -i:8090
+  935  sudo kill 10087
+  936  clear
+  937  npm start
+  938  clear
+  939  sudo lsof -i:8090
+  940  sudo kill 32550
+  941  sudo lsof -i:8090
+  942  clear
+  943  npm start
+  944  clear
+  945  npm start
+  946  node -v
+  947  nvm alias default 14
+  948  nvm ls
+  949  nvm use 14
+  950  npm i
+  951  clear
+  952  npm start
+  953  node -v
+  954  nvm use 14
+  955  npm i i18next
+  956  git pull
+  957  cd src/product/
+  958  git pull
+  959  git remote set-url origin https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/sub-module/admin.git
+  960  git pull
+  961  clear
+  962  git init
+  963  cd src/product/
+  964  git submodule init
+  965  git submodule update --remote
+  966  clear
+  967  npm start
+  968  node -v
+  969  npm i
+  970  npm i i18next
+  971  npm start
+  972  cd src/product/
+  973  git pull
+  974  clear
+  975  git pull
+  976  git remote set-url origin https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/sub-module/admin.git
+  977  git pull
+  978  clear
+  979  cd ../..
+  980  npm start
+  981  node -v
+  982  clear
+  983  npm start
+  984  git pull
+  985  cd src/product/
+  986  git pull
+  987  clear
+  988  git pull
+  989  git branch
+  990  git push
+  991  clear
+  992  git pull
+  993  cd Desktop/ekkanoo/
+  994  ls
+  995  cd admin/
+  996  git pull
+  997  cd src/product/
+  998  git pull
+  999  cd ..
+ 1000  code .
+ 1001  cd ../front/
+ 1002  code .
+ 1003  cd ../api/
+ 1004  code .
+ 1005  cd ../..
+ 1006  cd LN/
+ 1007  cd admin/
+ 1008  code .
+ 1009  cd ..
+ 1010  clear
+ 1011  git clone https://gitlab.com/auctionsoftware-large/project/ekkanoo/admin.git
+ 1012  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/ekkanoo/admin.git
+ 1013  cd admin/
+ 1014  code .
+ 1015  clear
+ 1016  history
+ 1017  clear
+ 1018  npm i
+ 1019  cd api/product/
+ 1020  git pull
+ 1021  git remote set-url origin https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/sub-module/api.git
+ 1022  git pull
+ 1023  git add src/custom/components/molecules/Bidding/BiddingItem.js src/custom/components/organisms/CardDetails/index.js
+ 1024  git commit -m "bug fix"
+ 1025  git push
+ 1026  git pull
+ 1027  git push
+ 1028  cd src/product/
+ 1029  git add src/product/components/species/components/checkout/CheckoutComponent.js
+ 1030  git add components/species/components/checkout/CheckoutComponent.js
+ 1031  git commit m "bug fixes"
+ 1032  git commit -m "bug fixes"
+ 1033  git pull
+ 1034  git push
+ 1035  git pull
+ 1036  cd api/product/
+ 1037  git pull
+ 1038  clear
+ 1039  npm start
+ 1040  sudo lsof -i : 8090
+ 1041  sudo lsof -i:8090
+ 1042  sudo kill 23669
+ 1043  sudo lsof -i:8090
+ 1044  clear
+ 1045  npm start
+ 1046  clear
+ 1047  npm start
+ 1048  sudo lsof -i:8090
+ 1049  clear
+ 1050  npm start
+ 1051  clear
+ 1052  git pull
+ 1053  cd ../..
+ 1054  clear
+ 1055  npm start
+ 1056  clear
+ 1057  git pull
+ 1058  cd api/product/
+ 1059  git pull
+ 1060  clear
+ 1061  npm start
+ 1062  sudo lsof -i:8090
+ 1063  clear
+ 1064  git pull
+ 1065  cd src/product/
+ 1066  git pull
+ 1067  git remote set-url origin https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/sub-module/front.git
+ 1068  git pull
+ 1069  cls
+ 1070  clear
+ 1071  npm start
+ 1072  clear
+ 1073  git pull
+ 1074  cd ../../
+ 1075  git pull
+ 1076  clear
+ 1077  git pull
+ 1078  npm start
+ 1079  clear
+ 1080  git pull
+ 1081  https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/sub-module/api.git
+ 1082  cd api/product/
+ 1083  https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/product/forward/sub-module/api.git
+ 1084  clear
+ 1085  git pull
+ 1086  clear
+ 1087  git pull
+ 1088  git pull origin main
+ 1089  cd src/product/
+ 1090  git pull
+ 1091  gitbranch
+ 1092  git branch
+ 1093  git checkout main
+ 1094  git pull
+ 1095  cd ../..
+ 1096  git pull
+ 1097  cd src/product/
+ 1098  git pull
+ 1099  npm start
+ 1100  git pull
+ 1101  cd src/product/
+ 1102  git pull
+ 1103  clear
+ 1104  git pull
+ 1105  cd Desktop/ekkanoo/
+ 1106  cd api/
+ 1107  git pull
+ 1108  cd api/product/
+ 1109  git pull
+ 1110  cd ../../../
+ 1111  cd ..
+ 1112  clear
+ 1113  ls
+ 1114  cd primismedical/
+ 1115  ls
+ 1116  git clone https://gitlab.com/auctionsoftware-large/project/primismedical/front.git
+ 1117  history
+ 1118  clear
+ 1119  ls
+ 1120  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/primismedical/api.git
+ 1121  cd api/
+ 1122  ls
+ 1123  cd api/product/
+ 1124  git submodule init
+ 1125  git submodule update --remote
+ 1126  cd ../../..
+ 1127  git init
+ 1128  cd api/
+ 1129  git init
+ 1130  git pull
+ 1131  cd ..
+ 1132  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/primismedical/front.git
+ 1133  cd front/src/product/
+ 1134  git submodule init
+ 1135  git submodule update --remote
+ 1136  clear
+ 1137  git submodule update --remote
+ 1138  cd ..
+ 1139  /..
+ 1140  cd ..
+ 1141  clear
+ 1142  ls
+ 1143  cd src/
+ 1144  ls
+ 1145  cd ..
+ 1146  git submodule init
+ 1147  git submodule update --remote
+ 1148  cd ..
+ 1149  sudo rm -r front
+ 1150  clear
+ 1151  ls
+ 1152  git clone git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/primismedical/front.git
+ 1153  clear
+ 1154  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/primismedical/front.git
+ 1155  history
+ 1156  clear
+ 1157  ls
+ 1158  cd front/
+ 1159  ls
+ 1160  git init
+ 1161  cd src/product/
+ 1162  ls
+ 1163  git submodule init
+ 1164  git submodule update --remote
+ 1165  cd ../..
+ 1166  git submodule update --remote
+ 1167  git submodule init
+ 1168  git submodule update --remote
+ 1169  cd ..
+ 1170  sudo rm -r front
+ 1171  git clone https://OAuth2:glpat-3dxk3u3NfYNRVRtRxsUS@gitlab.com/auctionsoftware-large/project/primismedical/front.git
+ 1172  cd front/
+ 1173  git submodule init
+ 1174  git submodule update --remote
+ 1175  cd src/product/
+ 1176  git branch
+ 1177  git checkout main
+ 1178  cd ../..
+ 1179  cd ../api/
+ 1180  clear
+ 1181  npm i
+ 1182  node -v
+ 1183  clear
+ 1184  cd ../front/
+ 1185  npm i
+ 1186  cd ../admin/
+ 1187  ls
+ 1188  npm i
+ 1189  clear
+ 1190  cd ../api/
+ 1191  ls
+ 1192  cd config/
+ 1193  ls
+ 1194  nano production.json 
+ 1195  cd ~/Desktop/
+ 1196  mysql -u root -p primis < primis_tetsdb_14dec2023.sql
+ 1197  mysql
+ 1198  sudo mysql
+ 1199  cd primismedical/
+ 1200  cd api/
+ 1201  code .
+ 1202  sudo mysql
+ 1203  cd ../front/
+ 1204  code .
+ 1205  cd ~
+ 1206  history

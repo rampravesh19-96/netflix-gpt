@@ -1,5 +1,9 @@
 # Netflix GPT
+API_KEY = ac64184a1241081ff39e5f6a9ba286a3
+API_ACCESS_TOKEN = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYzY0MTg0YTEyNDEwODFmZjM5ZTVmNmE5YmEyODZhMyIsInN1YiI6IjY0NWQxZjViZmUwNzdhNWNhZGY3ZTMyMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tr5dG-8Od00hp4iUGlXVS7UZ1iAJLWjBru0VbfV4Gfw
 
+ramps1996@mail.com
+AaaaA@12345
 - Create React App
 - Configured TailwindCSS 
 - Header

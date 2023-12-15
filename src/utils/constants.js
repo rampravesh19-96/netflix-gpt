@@ -5,12 +5,17 @@ export const USER_AVATAR =
   "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
 
 export const API_OPTIONS = {
-  method: "GET",
-  headers: {
-    accept: "application/json",
-    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
-  },
-};
+    method: 'GET',
+    headers: {
+      accept: 'application/json',
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYzY0MTg0YTEyNDEwODFmZjM5ZTVmNmE5YmEyODZhMyIsInN1YiI6IjY0NWQxZjViZmUwNzdhNWNhZGY3ZTMyMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tr5dG-8Od00hp4iUGlXVS7UZ1iAJLWjBru0VbfV4Gfw'
+    }
+  };
+  
+  fetch('https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', API_OPTIONS)
+    .then(response => response.json())
+    .then(response => console.log(response))
+    .catch(err => console.error(err));
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
