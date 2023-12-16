@@ -14,7 +14,7 @@ export const API_OPTIONS = {
   
   fetch('https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', API_OPTIONS)
     .then(response => response.json())
-    .then(response => console.log(response))
+    .then(response => response)
     .catch(err => console.error(err));
 
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
