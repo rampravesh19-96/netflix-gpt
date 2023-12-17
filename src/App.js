@@ -1,15 +1,13 @@
-import React from 'react'
-import Body from './components/Body'
-import Header from './components/Header'
-import { Provider } from 'react-redux'
-import appStore from './utils/appStore'
+import { Provider } from "react-redux";
+import Body from "./components/Body";
+import appStore from "./utils/appStore";
 
-const App = () => {
+function App() {
   return (
     <Provider store={appStore}>
-      <Body/>
+      <Body />
     </Provider>
-  )
+  );
 }
 
-export default App
+export default App;
