@@ -25,19 +25,18 @@ const GptSearchBar = () => {
 
   const handleGptSearchClick = async () => {
     
-    // const gptQuery =
-    //   "Act as Movie Recommendation System suggest some movie for the query " +
-    //   searchText.current.value +
-    //   ". Only give me names of five movies, comma seperated like example result given ahead. Example result: Gadar, Sholay, don, Golmal, koi mil gaya";
-    // const gptResult = (openai.Chat.ChatCompletion =
-    //   await openai.chat.completions.create({
-    //     messages: [{ role: "user", content: gptQuery }],
-    //     model: "gpt-3.5-turbo",
-    //   }));
-    // if (!gptResult.choices) {
-    // }
-    // const gptMovies = gptResult.choices[0]?.message.content.split(",");
-    const gptMovies = ["Andaz apna apna","Sholay","ishq","don","amar akbar anthony"]
+    const gptQuery =
+      "Act as Movie Recommendation System suggest some movie for the query " +
+      searchText.current.value +
+      ". Only give me names of five movies, comma seperated like example result given ahead. Example result: Gadar, Sholay, don, Golmal, koi mil gaya";
+    const gptResult = await openai.chat.completions.create({
+        messages: [{ role: "user", content: gptQuery }],
+        model: "gpt-3.5-turbo",
+      })
+    if (!gptResult.choices) {
+    }
+    const gptMovies = gptResult.choices[0]?.message.content.split(",");
+    // const gptMovies = ["Andaz apna apna","Sholay","ishq","don","amar akbar anthony"]
     const promiseArray = gptMovies.map(movie => searchMovieTMDB(movie))
     const tmdbResults = await Promise.all(promiseArray)
     dispatch(addGptMovieResult({movieNames : gptMovies, movieResults : tmdbResults}))
